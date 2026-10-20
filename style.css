@@ -7,6 +7,14 @@
     --color-education: #FF5533;
     --color-employment: #33FF55;
     --color-projects: #3355FF;
+
+    /*
+    --color-home: #4A5568;
+    --color-education: #FF8A75;
+    --color-employment: #81C784;
+    --color-projects: #64B5F6;
+    */
+
 }
 
 * {
@@ -51,7 +59,7 @@ body {
 #projects { background-color: var(--color-projects); color: var(--primary-text); }
 
 .content {
-    max-width: 800px;
+    max-width: 1020px;
     width: 100%;
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
 }
@@ -74,7 +82,7 @@ p { margin-bottom: 0.5em; }
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.card:hover {
+.link-card:hover {
     background-color: var(--secondary-text);
     color: var(--primary-text);
 }
